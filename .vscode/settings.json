@@ -1,7 +1,0 @@
-{
-    "python.linting.pylintEnabled": false,
-    "command": "python3",
-    "isShellCommand": true,
-    "args": ["${file}"],
-    "showOutput": "always"
-}
