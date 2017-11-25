@@ -21,3 +21,6 @@
 3. quick network
 4. batch data
 5. different optimizers
+
+## 3: intermediate
+1. CNN
