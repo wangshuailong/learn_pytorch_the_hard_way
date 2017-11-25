@@ -27,7 +27,8 @@ x, y = Variable(x), Variable(y)
 
 class Net(torch.nn.Module):
     def __init__(self, n_feature, n_hidden, n_output):
-        super(Net, self).__init__()
+        # super(Net, self).__init__()
+        torch.nn.Module.__init__(self)
         self.hidden = torch.nn.Linear(n_feature, n_hidden)
         self.output = torch.nn.Linear(n_hidden, n_output)
 
