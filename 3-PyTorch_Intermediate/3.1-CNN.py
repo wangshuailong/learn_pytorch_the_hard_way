@@ -13,9 +13,9 @@ BATCH_SIZE = 100
 LEARNING_RATE = 0.001
 
 # MNIST
-train_data = dsets.MNIST(root='./data', train=True, transform=transforms.ToTensor(),
+train_data = dsets.MNIST(root='../data', train=True, transform=transforms.ToTensor(),
                          download=True)
-test_data = dsets.MNIST(root='./data', train=False, transform=transforms.ToTensor())
+test_data = dsets.MNIST(root='../data', train=False, transform=transforms.ToTensor())
 
 # Data Loader
 train_loader = torch.utils.data.DataLoader(dataset=train_data, batch_size=BATCH_SIZE, shuffle=False)
