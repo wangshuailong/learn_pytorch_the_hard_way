@@ -22,5 +22,11 @@
 4. batch data
 5. different optimizers
 
-## 3: intermediate
-1. CNN
+## 3: CNN
+1. Basic CNN
+
+## 4.RNN
+1. Basic RNN
+
+## 5.GAN
+1. Vanilla GAN 
